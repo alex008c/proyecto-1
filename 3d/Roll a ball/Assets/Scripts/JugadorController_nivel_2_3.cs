@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class JugadorController : MonoBehaviour
+public class JugadorController_nivel_2_3 : MonoBehaviour
 {
     // VARIABLES PÚBLICAS
     public float velocidad;
@@ -92,7 +92,7 @@ public class JugadorController : MonoBehaviour
             juegoTerminado = true;
             textoGanar.text = "¡Ganaste! Presiona 'R' para jugar de nuevo.";
             // Carga la escena del laberinto
-            SceneManager.LoadScene("NivelLaberinto");
+            SceneManager.LoadScene("NivelObstaculo");
         }
     }
 
